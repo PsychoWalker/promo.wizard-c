@@ -292,6 +292,11 @@
                  </div>
              </div>
          </div>
+
+         <div class="howItWorks__map">
+
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2181.2852732107485!2d35.88197535187166!3d56.858202671811306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b687adb1beef81%3A0x175f554149dba90d!2z0KPRh9C40YLQtdC70YzRgdC60LDRjyDRg9C7LiwgNTksINCi0LLQtdGA0YwsINCi0LLQtdGA0YHQutCw0Y8g0L7QsdC7LiwgMTcwMDAx!5e0!3m2!1sru!2sru!4v1600775337483!5m2!1sru!2sru" width="100%" height="1056px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+         </div>
          <form enctype="multipart/form-data" action="#" class="formCallback">
              <h3 class="black">Связаться с нами</h3>
 
@@ -318,56 +323,37 @@
              </div>
          </form>
 
-         <div class="howItWorks__map">
-
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2181.2852732107485!2d35.88197535187166!3d56.858202671811306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b687adb1beef81%3A0x175f554149dba90d!2z0KPRh9C40YLQtdC70YzRgdC60LDRjyDRg9C7LiwgNTksINCi0LLQtdGA0YwsINCi0LLQtdGA0YHQutCw0Y8g0L7QsdC7LiwgMTcwMDAx!5e0!3m2!1sru!2sru!4v1600775337483!5m2!1sru!2sru" width="100%" height="1056px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-         </div>
      </section>
     <section class="partnersScreen">
 
         <div class="wrapper">
             <h2 class="black nonUpper">Мы разработали проекты для компаний</h2>
             <div class="owl-carousel owl-theme owl-slider-bottom">
-                <div class="logo-slide">
-                    <div class="artnersScreen__label">
+
                         <img src="image/chiken-haus.png" alt="chiken-haus" class="logoLabel">
                         <img src="image/pareto.png" alt="pareto" class="logoLabel">
                         <img src="image/kormiles_logotype.png" alt="kormiles" class="logoLabel">
                         <img src="image/tekmash-1.png" alt="tekmash" class="logoLabel">
-                    </div>
-                </div>
-                <div class="logo-slide">
-                    <div class="artnersScreen__label">
+
                         <img src="image/etalon-1.png" alt="etalon" class="logoLabel">
                         <img src="image/afeks-grupp.png" alt="afeks-grupp" class="logoLabel">
                         <img src="image/irena-pljus.png" alt="irena-pljus" class="logoLabel">
                         <img src="image/hobbity.png" alt="hobbity" class="logoLabel">
-                    </div>
-                </div>
-                <div class="logo-slide">
-                    <div class="artnersScreen__label">
+
                         <img src="image/vazhnaja-persona.png" alt="vazhnaja-persona" class="logoLabel">
                         <img src="image/antej-plast.png" alt="antej-plast" class="logoLabel">
                         <img src="image/dizhital-teh.png" alt="dizhital-teh" class="logoLabel">
                         <img src="image/lastochka.png" alt="lastochka" class="logoLabel">
-                    </div>
-                </div>
-                <div class="logo-slide">
-                    <div class="artnersScreen__label">
+
                         <img src="image/avto-aljans.png" alt="avto-aljans" class="logoLabel">
                         <img src="image/zolotoshvei.png" alt="zolotoshvei" class="logoLabel">
                         <img src="image/mix.salon.png" alt="mix.salon" class="logoLabel">
                         <img src="image/znatok.png" alt="znatok" class="logoLabel">
-                    </div>
-                </div>
-                <div class="logo-slide">
-                    <div class="artnersScreen__label">
+
                         <img src="image/elektromaster-1.png" alt="elektromaster-1" class="logoLabel">
                         <img src="image/temp.png" alt="temp" class="logoLabel">
                         <img src="image/vesta-servis.png" alt="vesta-servis" class="logoLabel">
-                        <img src="image/zashuboj.png" alt="zashuboj" class="logoLabel">
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
@@ -497,13 +483,28 @@
     });
 
     $('.owl-slider-bottom').owlCarousel({
-        items: 1,
+        items:4,
         dots: false,
         nav: false,
         autoplay: true,
         autoplaySpeed: 1500,
         autoplayTimeout: 5000,
         loop: true,
+        margin: 10,
+        responsive: {
+            280 : {
+                items: 1,
+            },
+            480 : {
+                items: 2,
+            },
+            768 : {
+                items: 3,
+            },
+            1024 : {
+                items: 4,
+            }
+        },
     });
 
     // $('.sliderProject').owlCarousel({
@@ -730,7 +731,7 @@
     slider.oninput = function() {
         pointer.innerHTML = slider.value + '₽';
         setBagePosition(slider, pointer);
-    }
+    };
 
     $('#form').on('submit', function(e){
         e.preventDefault();

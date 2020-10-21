@@ -550,9 +550,7 @@ margin-bottom: 353px;
     transform: scale(.8);
 }
 
-.rightBoard img {
-    left: calc(50% - 330px/2);
-}
+
 
 .leftBoard:hover,
 .rightBoard:hover {
@@ -564,11 +562,11 @@ margin-bottom: 353px;
 
 .leftBoard:hover img,
 .rightBoard:hover img {
-    animation: scaleUp 1s linear forwards;
+    animation: scaleUpNew 1s linear forwards;
 
 }
 
-@keyframes scaleUp {
+@keyframes scaleUpNew {
     from {transform: scale(.8)}
     to  {transform: scale(1)}
 }
@@ -999,7 +997,7 @@ margin-bottom: 353px;
 
 .howItWorks__gridBlock {
     display: grid;
-    grid-template-columns: 31% 60%;
+    grid-template-columns: 31% 69%;
     overflow: hidden;
 }
 
@@ -1331,7 +1329,7 @@ margin-bottom: 353px;
 .exit {
     position: absolute;
     right: 70px;
-    top: 70px;
+    top: 25px;
     width: 30px;
     height: 30px;
     color:#1182C5;
@@ -2055,13 +2053,16 @@ li:last-child .menu__item {
     }
 
     .computer {
-        right: 75px;
-        top: -145px;
+      width: 70% !important;
+        top: auto;
+        right: 15%;
     }
 
     .computer2 {
-        top: -150px;
-        right: 25%;
+        width: 70% !important;
+        top: auto;
+        right: 15%;
+
     }
 
     .descriptionSlider {
@@ -2072,9 +2073,9 @@ li:last-child .menu__item {
 
     .mobile {
         position: absolute;
-        top: -40px;
-        right: 25%;
-        width: 50% !important;
+        top: auto;
+        right: 15%;
+        width: 70% !important;
     }
 }
 
@@ -2220,9 +2221,9 @@ li:last-child .menu__item {
 
     .rightBoard img,
     .leftBoard img {
-        left: 0%;
-        transform: translate(50%, 35%);
+        top: -160px;
         width: 50%;
+        left: calc(50% - 222px/2);
     }
 
     .choiceScreen__block h2 {
@@ -2257,6 +2258,10 @@ li:last-child .menu__item {
 
 @media screen and (max-width: 768px) {
     .mobileArrow {
+        display: block;
+    }
+
+    .mainScreen__bottom {
         display: block;
     }
 
@@ -2336,9 +2341,9 @@ li:last-child .menu__item {
 
     .rightBoard img,
     .leftBoard img {
-        left: 0%;
-        transform: translate(50%, 90%);
         width: 50%;
+        top: -125px;
+        left: calc(50% - 222px/3);
     }
 
 
@@ -2607,6 +2612,11 @@ li:last-child .menu__item {
         width: 100%;
     }
 
+    .questionScreen h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
     .wrapper {
         width: 85%;
     }
@@ -2666,13 +2676,10 @@ li:last-child .menu__item {
         line-height: 32px;
     }
 
-    .mainScreen__bottom p {
-        font-size: 10px;
-        line-height: 16px;
-    }
 
     .partnersScreen h2 {
         text-align: center;
+        line-height: 32px;
     }
 
     .owl-theme .owl-dots, .owl-theme .owl-nav {
@@ -2864,9 +2871,7 @@ li:last-child .menu__item {
 }
 
 @media screen and (max-width: 375px) {
-    .mainScreen__bottom {
-        display: block;
-    }
+
 
     .mainScreen__center {
         padding: 0;

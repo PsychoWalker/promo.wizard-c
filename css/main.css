@@ -2053,9 +2053,9 @@ li:last-child .menu__item {
     }
 
     .computer {
-      width: 70% !important;
+      width: 50% !important;
         top: auto;
-        right: 15%;
+        right: 25%;
     }
 
     .computer2 {
@@ -2076,6 +2076,21 @@ li:last-child .menu__item {
         top: auto;
         right: 15%;
         width: 70% !important;
+    }
+
+    .blockCounter span {
+        font-size: 72px;
+        line-height: 82px;
+    }
+
+    .upperText {
+        font-size: 72px;
+        line-height: 82px;
+    }
+
+    .blockCounter:last-child p:first-child {
+        font-size: 72px;
+        line-height: 82px;
     }
 }
 

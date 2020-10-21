@@ -1,0 +1,20 @@
+AddDefaultCharset UTF-8
+DefaultLanguage ru-RU
+
+ErrorDocument 404 /?404
+Options -Indexes
+
+RewriteRule ^(Application/Pages/) - [F,L,NC]
+
+<IfModule mod_rewrite.c>
+
+    SetEnv HTTP_MOD_REWRITE On
+
+	RewriteEngine on
+	
+	RewriteRule ^$ index.php [L]
+	RewriteRule ^([a-zA-Z_0-9]+)$ index.php?page=$1 [L]
+	
+	RewriteRule ^table/([0-9]+)$ index.php?page=table&num=$1 [L]
+	
+</IfModule>

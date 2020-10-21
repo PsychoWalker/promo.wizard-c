@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="79540a17-a4b8-4010-93f0-40bc6a83aab6" name="landing Wizard" url="http://93.91.112.124">
+        <fileTransfer host="93.91.112.124" port="2244" rootFolder="/home/bitrix/ext_www/tester.wizard-c.ru" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2244" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

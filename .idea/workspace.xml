@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4d73cab-9f05-4799-b9c5-f7e64a2cb0f7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hgV3tM8vjC6ucbezmhZIN1nC1B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\work\1 landing-wizard-c\image" />
+      <recent name="E:\work\1 landing-wizard-c\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://93.91.112.124/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4d73cab-9f05-4799-b9c5-f7e64a2cb0f7" name="Default Changelist" comment="" />
+      <created>1600432525393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600432525393</updated>
+      <workItem from="1600432527085" duration="35000" />
+      <workItem from="1600432630108" duration="5576000" />
+      <workItem from="1600668870618" duration="641000" />
+      <workItem from="1600681220378" duration="9865000" />
+      <workItem from="1600692249126" duration="6692000" />
+      <workItem from="1600754846591" duration="26168000" />
+      <workItem from="1600868020310" duration="1779000" />
+      <workItem from="1600929731085" duration="12412000" />
+      <workItem from="1600949719405" duration="7779000" />
+      <workItem from="1601015448210" duration="21989000" />
+      <workItem from="1601282060653" duration="12920000" />
+      <workItem from="1601359691100" duration="1021000" />
+      <workItem from="1601372458972" duration="760000" />
+      <workItem from="1601374372635" duration="2154000" />
+      <workItem from="1601446449120" duration="625000" />
+      <workItem from="1601543103539" duration="4062000" />
+      <workItem from="1601554063079" duration="1115000" />
+      <workItem from="1601881541292" duration="26753000" />
+      <workItem from="1601964404160" duration="24993000" />
+      <workItem from="1602050451217" duration="250000" />
+      <workItem from="1602051573753" duration="941000" />
+      <workItem from="1602056142911" duration="136000" />
+      <workItem from="1602071676176" duration="8611000" />
+      <workItem from="1602137831376" duration="9564000" />
+      <workItem from="1602150645487" duration="4389000" />
+      <workItem from="1602483560363" duration="16253000" />
+      <workItem from="1602569156866" duration="64000" />
+      <workItem from="1602591964146" duration="2408000" />
+      <workItem from="1602656092103" duration="561000" />
+      <workItem from="1602657157023" duration="21979000" />
+      <workItem from="1602742657698" duration="11688000" />
+      <workItem from="1602770010698" duration="3801000" />
+      <workItem from="1602832194939" duration="2558000" />
+      <workItem from="1602836221187" duration="17205000" />
+      <workItem from="1603178085120" duration="20032000" />
+      <workItem from="1603262709746" duration="9724000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1368" y="178" key="#Deployment" timestamp="1600435290677">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1368" y="178" key="#Deployment/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1600435290677" />
+    <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602851991850">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1602851991850" />
+    <state x="-1828" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1603198522496">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1828" y="92" width="1736" height="856" key="DiffContextDialog/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1603198522496" />
+    <state x="-1828" y="92" width="1736" height="856" key="DirDiffDialog" timestamp="1600951838438">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1828" y="92" width="1736" height="856" key="DirDiffDialog/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1600951838438" />
+    <state x="-1181" y="262" key="FileChooserDialogImpl" timestamp="1603201000829">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1181" y="262" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1603201000829" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1601304516766">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1601304516766" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1601304516766">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1601304516766" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1601304516766">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1601304516766" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1601304516766">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1601304516766" />
+    <state x="-1126" y="443" key="NewPhpFileDialog" timestamp="1600435227571">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1126" y="443" key="NewPhpFileDialog/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1600435227571" />
+    <state x="-1459" y="162" key="SettingsEditor" timestamp="1602750441791">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1459" y="162" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1602750441791" />
+    <state x="-1098" y="419" key="WebDeployment.AddServerDialog.v.1" timestamp="1600434933741">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1098" y="419" key="WebDeployment.AddServerDialog.v.1/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1600434933741" />
+    <state x="-1162" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600435369673">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1162" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1600435369673" />
+    <state x="-1264" y="252" width="607" height="536" key="find.popup" timestamp="1603182408232">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1264" y="252" width="607" height="536" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1603182408232" />
+    <state x="-1145" y="250" key="ftp.server.browser" timestamp="1600435137824">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1145" y="250" key="ftp.server.browser/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1600435137824" />
+    <state x="-1304" y="240" key="run.anything.popup" timestamp="1602754879360">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1304" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1602754879360" />
+  </component>
+</project>

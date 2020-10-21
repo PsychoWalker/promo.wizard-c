@@ -1,0 +1,35 @@
+<?php
+if(isset($_POST['fio'])){
+$fio = $_POST['fio'];
+$email = $_POST['email'];
+$phone = $_POST['phone'];
+$comment = $_POST['comment'];
+
+$fio = htmlspecialchars($fio);
+$email = htmlspecialchars($email);
+$phone = htmlspecialchars($phone);
+$comment = htmlspecialchars($comment);
+
+$fio = urldecode($fio);
+$email = urldecode($email);
+$phone = urldecode($phone);
+$comment = urldecode($comment);
+
+$fio = trim($fio);
+$email = trim($email);
+
+$message = "<b>ФИО:</b> ".$fio."<br><b>Телефон:</b> +".$phone."<br><b>E-mail:</b> ".$email."<br><b>Сообщение:</b> ".$comment;
+
+$header = array(
+	"From: zakaz@sitevtveri.ru",
+    "MIME-Version: 1.0",
+    "Content-Type: text/html;charset=utf-8"
+);
+
+mail("sas2704@mail.ru", "Сообщение с сайта", $message, implode("\r\n", $header));
+
+header("Location: https://wizardweb.ru");}
+
+else{  echo "Hacking";} 
+?>
+

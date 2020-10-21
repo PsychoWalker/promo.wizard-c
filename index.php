@@ -334,18 +334,26 @@
                         <img src="image/pareto.png" alt="pareto" class="logoLabel">
                         <img src="image/kormiles_logotype.png" alt="kormiles" class="logoLabel">
                         <img src="image/tekmash-1.png" alt="tekmash" class="logoLabel">
-                        <img src="image/etalon-1.png" alt="etalon" class="logoLabel">
-                        <img src="image/vazhnaja-persona.png" alt="vazhnaja-persona" class="logoLabel">
-                        <img src="image/afeks-grupp.png" alt="afeks-grupp" class="logoLabel">
-                        <img src="image/irena-pljus.png" alt="irena-pljus" class="logoLabel">
                     </div>
                 </div>
                 <div class="logo-slide">
                     <div class="artnersScreen__label">
+                        <img src="image/etalon-1.png" alt="etalon" class="logoLabel">
+                        <img src="image/afeks-grupp.png" alt="afeks-grupp" class="logoLabel">
+                        <img src="image/irena-pljus.png" alt="irena-pljus" class="logoLabel">
                         <img src="image/hobbity.png" alt="hobbity" class="logoLabel">
+                    </div>
+                </div>
+                <div class="logo-slide">
+                    <div class="artnersScreen__label">
+                        <img src="image/vazhnaja-persona.png" alt="vazhnaja-persona" class="logoLabel">
                         <img src="image/antej-plast.png" alt="antej-plast" class="logoLabel">
                         <img src="image/dizhital-teh.png" alt="dizhital-teh" class="logoLabel">
                         <img src="image/lastochka.png" alt="lastochka" class="logoLabel">
+                    </div>
+                </div>
+                <div class="logo-slide">
+                    <div class="artnersScreen__label">
                         <img src="image/avto-aljans.png" alt="avto-aljans" class="logoLabel">
                         <img src="image/zolotoshvei.png" alt="zolotoshvei" class="logoLabel">
                         <img src="image/mix.salon.png" alt="mix.salon" class="logoLabel">
@@ -360,10 +368,11 @@
                         <img src="image/zashuboj.png" alt="zashuboj" class="logoLabel">
                     </div>
                 </div>
-        </div>
+            </div>
         </div>
     </section>
- </main>
+
+</main>
    <footer class="footer">
        <div class="wrapper">
            <h2 class="white hr">Контакты</h2>
@@ -646,7 +655,7 @@
 </script>
 <section class="formPopUp">
     <div class="wrapper">
-        <form action="">
+        <form enctype="multipart/form-data" method="post" id="form">
             <span class="headerPopup">Расскажите о своем проекте</span>
             <p>Укажите контакты, и мы свяжемся
                 с Вами, чтобы обсудить все детали. Либо звоните <a class="phonePopup" href="tel:+74822655857">+7 (4822) 65-58-57</a>, пообщаемся,
@@ -669,27 +678,27 @@
                 <p class="service">Планируемый бюджет</p>
                 <div class="slidecontainer">
                     <div class="flexPointer"><span id="demo"></span></div>
-                    <input type="range" min="10000" max="1000000" step="10000" value="50000" class="slider" id="myRange">
+                    <input type="range" min="10000" max="1000000" step="10000" value="50000" class="slider" id="myRange" nam="price">
                 </div>
 
             </div>
             <div class="blockInputInfo blockInputInfoPopup">
                 <div class="blockInputInfo__left blockInputInfo__leftPopup">
                     <div class="test1"><label for="userNamePopup">Ваше имя</label>
-                        <input type="text"  id="userNamePopup" class="name aInput" placeholder="ФИО"></div>
+                        <input type="text" name="name" id="userNamePopup" class="name aInput" placeholder="ФИО"></div>
                     <div class="test1"><label for="userPhonePopup">Номер телефона</label>
-                        <input type="text"  class="phone aInput" id="userPhonePopup" placeholder="+7 ( _ _ _ ) _ _ _-_ _-_ _"></div>
+                        <input type="text" name="phone" class="phone aInput" id="userPhonePopup" placeholder="+7 ( _ _ _ ) _ _ _-_ _-_ _"></div>
                     <div class="test1"><label for="userEmailPopup">Электронная почта</label>
-                        <input type="text"  id="userEmailPopup" class="email aInput" placeholder="youremail@example.com"></div>
+                        <input type="text" name="email" id="userEmailPopup" class="email aInput" placeholder="youremail@example.com"></div>
                 </div>
                 <div class="blockInputInfo__right blockInputInfo__rightPopup">
                     <label for="userMessagePopup">Сообщение</label>
-                    <textarea  id="userMessagePopup"></textarea>
+                    <textarea  id="userMessagePopup" name="comment"></textarea>
                 </div>
             </div>
             <input type="file" class="uploadFile" id="mainFastFormPopup"><label for="mainFastFormPopup">Прикрепить файл</label>
             <div class="formRequestMain__accept">
-                <button type="button" class="btn btn-bottom-form btn-popup-form" >Отправить</button>
+                <button type="submit" class="btn btn-bottom-form btn-popup-form" >Отправить</button>
                 <input type="checkbox" class="custom-checkbox" id="userPoliticsPopup">
                 <label for="userPoliticsPopup"><span class="crutch"></span>Я даю свое согласие на обработку моих персональных<br/> данных.</label>
 
@@ -698,7 +707,7 @@
     </div>
     <div class="exit" onclick="$('.formPopUp').toggleClass('animationFade'); $('.formPopUp').toggleClass('animationSlick')"></div>
 </section>
-<!--<button type="button" class="popupActive" onclick="$('.formPopUp').removeClass('animationFade'); $('.formPopUp').toggleClass('animationSlick')"><span>Заказать<br>сайт</span></button>-->
+<!--<button type="button" class="popupActive" onclick="$('.formPopUp').remobtn btn-bottom-form btn-popup-formveClass('animationFade'); $('.formPopUp').toggleClass('animationSlick')"><span>Заказать<br>сайт</span></button>-->
 <button type="button" class="popupActive btn-3" onclick="$('.formPopUp').removeClass('animationFade'); $('.formPopUp').toggleClass('animationSlick')"><span>Заказать<br>сайт</span></button>
 <script>
     $('.block').click(function () {
@@ -722,6 +731,26 @@
         pointer.innerHTML = slider.value + '₽';
         setBagePosition(slider, pointer);
     }
+
+    $('#form').on('submit', function(e){
+        e.preventDefault();
+        var fd = new FormData( this );
+        console.log(fd);
+        $.ajax({
+        url: 'phpMailer/send.php',
+        type: 'POST',
+        contentType: false,
+        processData: false,
+        data: fd,
+        success: function(msg){
+            if(msg === 'ok') {
+               /* alert('Отправлено');*/
+            } else {
+            /*    alert('Ошибка') */
+            }
+        }
+    });
+    });
 </script>
 
 </body>

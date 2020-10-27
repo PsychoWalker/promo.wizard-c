@@ -14,12 +14,13 @@ $( document ).ready(function () {
 	$('.email').on('change', function () {
 		var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 		if(reg.test($(this).val()) === false) {
-			$(this).css("border","3px solid #F5222D");
+			$(this).css("border","2px solid #F5222D");
+			$(this).css("background-color","rgba(255, 62, 29, .06);");
 			$(this).parent().addClass('test2');
 			$(this).parent().removeClass('test3');
 			return false;
 		} else {
-			$(this).css("border","3px solid #65FF1A");
+			$(this).css("border","2px solid #18A0FB");
 			$(this).parent().addClass('test3');
 			$(this).parent().removeClass('test2');
 		}
@@ -27,11 +28,11 @@ $( document ).ready(function () {
 
 	$('.phone').on('change', function () {
 		if ($(this).val().length < 18) {
-			$(this).css("border","3px solid #F5222D");
+			$(this).css({"border" : "2px solid #F5222D", "background-color" : "#fcf1ef"});
 			$(this).parent().addClass('test2');
 			$(this).parent().removeClass('test3');
 		} else {
-			$(this).css("border","3px solid #65FF1A");
+			$(this).css("border","2px solid #18A0FB");
 			$(this).parent().addClass('test3');
 			$(this).parent().removeClass('test2');
 		}
@@ -40,11 +41,12 @@ $( document ).ready(function () {
 	$('.name').on('change', function () {
 		var numberX = /[\d.,:]/;
 		if ($(this).val().length < 2 || numberX.test($(this).val()) === true) {
-			$(this).css("border","3px solid #F5222D");
+			$(this).css("border","2px solid #F5222D");
+			$(this).css("background-color","rgba(255, 62, 29, .06);");
 			$(this).parent().addClass('test2');
 			$(this).parent().removeClass('test3');
 		} else {
-			$(this).css("border","3px solid #65FF1A");
+			$(this).css("border","2px solid #18A0FB");
 			$(this).parent().addClass('test3');
 			$(this).parent().removeClass('test2');
 		}

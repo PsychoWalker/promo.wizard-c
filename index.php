@@ -18,11 +18,11 @@
             <div class="mainScreen__logo">
                 <img src="image/white.svg" alt="logo">
             </div>
-            <nav class="mainScreen__menu">
+            <nav class="mainScreen__menu" id="menu">
                 <ul>
-                    <li><a href="">Услуги</a></li>
-                    <li><a href="">Как выстроен процесс</a></li>
-                    <li><a href="">Связаться с нами</a></li>
+                    <li><a href="#questionScreen">Услуги</a></li>
+                    <li><a href="#howItWorks">Как выстроен процесс</a></li>
+                    <li><a href="#formCallback">Связаться с нами</a></li>
                     <li class="tel"><a href="tel:+74822655857">+7 (4822) 65-58-57</a></li>
                 </ul>
             </nav>
@@ -36,8 +36,8 @@
                 <li><a class="menu__item" href="/company/">Связаться с нами</a></li>
                 <div class="footerMenu">
                     <div class="phoneMenu"><a href="tel:+74822531189">+7 (4822) 65-58-57</a></div>
-                    <div class="email"><a href="#">info@wizard-c.ru</a></div>
-                    <p>170904, Россия, г. Тверь,<br> ул. Учительская, 59</p>
+                    <div class="email"><a href="#">web@wizard-c.ru</a></div>
+                    <p>170006, Россия, г. Тверь,<br> ул. Учительская, 59</p>
                 </div>
                 <div class="copyright">
                     <p> <img src="image/footer_bitrix.png" alt="bitrix"></p>
@@ -62,14 +62,14 @@
                         продажи</p></div>
                 <div class="topPlace">
                     <h3>3</h3>
-                    <p>Повысим узнаваемость бренда</p>
+                    <p>Повысим<br> узнаваемость бренда</p>
                 </div>
             </div>
         </div>
     </section>
 </header>
 <main>
-<section class="questionScreen">
+<section class="questionScreen" id="questionScreen">
         <div class="wrapper">
             <h2 class="white nonUpper">Сайты для решения любых задач</h2>
             <div class="owl-carousel owl-theme questionScreen__slider">
@@ -104,21 +104,26 @@
 
           <section class="choiceScreen">
            <div class="wrapper choiceScreen__block">
-               <h2 class="white">Какой сайт нужен вам?</h2>
+               <h2 class="white">Сайт нужен как можно скорее?</h2>
                <div class="choiceScreen__blueAndRed">
                    <div class="leftBoard">
                        <img src="image/tabletka.png" alt="tabletka">
-                       <h3>Готовое решение<br> для вашего бизнеса</h3>
+                       <h3>ДА! ВРЕМЕНИ ЖДАТЬ НЕТ —<br>
+                           УСТРОИТ ТИПОВОЕ РЕШЕНИЕ</h3>
                    </div>
                    <div class="rightBoard">
                        <img src="image/pyramid.png" alt="pyramid">
-                       <h3>Набор Уникальных возможностей<br> для вашего бизнеса</h3>
+                       <h3>НЕТ, ВРЕМЯ ЕСТЬ —<br>
+                           ХОЧУ УНИКАЛЬНОЕ РЕШЕНИЕ</h3>
                    </div>
                </div>
            </div>
        </section>
      <section class="projectsScreen section section--intro">
-          <div class="wrapper"><h2 class="white">Проекты</h2></div>
+          <div class="wrapper">
+              <h2 class="white">Нами реализованы проекты</h2>
+              <p class="white">Первое общение с клиентом, который обрисовывает будущий<br> продукт, обозначает его цели и задачи, расставляет акценты.</p>
+          </div>
           <div class="isolayer isolayer--deco1 isolayer--shadow">
               <ul class="grid">
                   <li class="grid__item">
@@ -186,7 +191,7 @@
           </div>
       </section>
 
-     <section class="howItWorks">
+     <section class="howItWorks" id="howItWorks">
          <div class="hoItWorks__slider">
              <div class="halfWrapper hoItWorks__margin">
                  <h2 class="black">Как мы движемся по проекту</h2>
@@ -203,7 +208,7 @@
                          </ul>
                      </div>
                      <div class="sliderProject">
-                         <div class="sliderContainer active">
+                         <div class="sliderContainer firstSlide active">
                              <div class="menuItem mobileMenuItem activeItem">Встреча</div>
                              <div class=" descriptionSlider">
                                  <p>Первое общение с клиентом, который обрисовывает будущий продукт, обозначает его цели и задачи, расставляет акценты.</p>
@@ -288,6 +293,7 @@
         </button>
     </div>
 </div>
+                         <div class="screenMove"></div>
                      </div>
                  </div>
              </div>
@@ -297,14 +303,14 @@
 
              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2181.2852732107485!2d35.88197535187166!3d56.858202671811306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b687adb1beef81%3A0x175f554149dba90d!2z0KPRh9C40YLQtdC70YzRgdC60LDRjyDRg9C7LiwgNTksINCi0LLQtdGA0YwsINCi0LLQtdGA0YHQutCw0Y8g0L7QsdC7LiwgMTcwMDAx!5e0!3m2!1sru!2sru!4v1600775337483!5m2!1sru!2sru" width="100%" height="1056px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
          </div>
-         <form enctype="multipart/form-data" action="#" class="formCallback">
-             <h3 class="black">Связаться с нами</h3>
+         <form enctype="multipart/form-data" action="#" class="formCallback" id="formCallback">
+             <h2 class="black">Связаться с нами</h2>
 
              <div class="errorImg"></div><p>Зададим правильные вопросы, опишем возможности и наметим<br> план действий.</p>
              <div class="blockInputInfo">
                  <div class="blockInputInfo__left">
                      <div class="test1"><label for="userName">Ваше имя</label>
-                         <input type="text"  id="userName" class="name aInput" placeholder="ФИО"></div>
+                         <input type="text"  id="userName" class="name aInput" placeholder="Алексей"></div>
                      <div class="test1"><label for="userPhone">Номер телефона</label>
                          <input type="text"  class="phone aInput" id="userPhone" placeholder="+7 ( _ _ _ ) _ _ _-_ _-_ _"></div>
                      <div class="test1"><label for="userEmail">Электронная почта</label>
@@ -312,12 +318,12 @@
                  </div>
                  <div class="blockInputInfo__right">
                      <label for="userMessage">Сообщение</label>
-                     <textarea  id="userMessage"></textarea>
+                     <textarea  id="userMessage" placeholder="Пара слов о проекте"></textarea>
                  </div>
              </div>
              <input type="file" class="uploadFile" id="mainFastForm"><label for="mainFastForm">Прикрепить реквизиты или файл</label>
              <div class="formRequestMain__accept">
-                 <input type="checkbox" class="custom-checkbox" id="userPolitics">
+                 <input type="checkbox" class="custom-checkbox" id="userPolitics" checked>
                  <label for="userPolitics"><span class="crutch"></span>Я даю свое согласие на обработку моих персональных<br/> данных.</label>
                  <button type="button" class="btn btn-bottom-form" >Отправить</button>
              </div>
@@ -353,7 +359,6 @@
                         <img src="image/elektromaster-1.png" alt="elektromaster-1" class="logoLabel">
                         <img src="image/temp.png" alt="temp" class="logoLabel">
                         <img src="image/vesta-servis.png" alt="vesta-servis" class="logoLabel">
-
             </div>
         </div>
     </section>
@@ -364,7 +369,7 @@
            <h2 class="white hr">Контакты</h2>
            <div class="footerDesc">
                <div class="footerDesc__blockLeft">
-                   <p class="gray">170904, Россия, г. Тверь,<br> ул. Учительская, 59</p>
+                   <p class="gray">170006, Россия, г. Тверь,<br> ул. Учительская, 59</p>
                    <p class="gray">+7(4822) 65-58-57 (многоканальный)</p>
                    <p class="gray">sova1c@wizard-c.ru</p>
                    <p class="gray pale">© 2020 Wizard-c</p>
@@ -384,7 +389,9 @@
 <script src="js/dynamics.min.js"></script>
 <script src="js/classie.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+<script src="js/hammer.min.js"></script>
 <script src="js/main.js"></script>
+
 <script>
     (function() {
         function getRandomInt(min, max) {
@@ -480,6 +487,7 @@
         nav: true,
         dots: true,
         dotsData: true,
+        loop: true,
     });
 
     $('.owl-slider-bottom').owlCarousel({
@@ -490,7 +498,7 @@
         autoplaySpeed: 1500,
         autoplayTimeout: 5000,
         loop: true,
-        margin: 10,
+        margin: 30,
         responsive: {
             280 : {
                 items: 1,
@@ -550,49 +558,44 @@
     }); */
 </script>
 <script>
-    /*Стрелка вперёд */
-    $(".arrowSlider__right button").click(function () {
-        if ($(".menuItem.activeItem").next().hasClass("lastItem")) {
-            $(".menuItem.activeItem").next().addClass("activeItem");
-            $(".menuItem.activeItem").prev().removeClass("activeItem");
-            $(".arrowSlider__right button").attr("disabled", true);
-            $(".arrowSlider__right button").addClass("deactive");
-            $(".arrowSlider__left button").removeClass("deactive");
-            $(".arrowSlider__left button").attr("disabled", false);
-            $(".sliderContainer.active").next().addClass("active");
-            $(".sliderContainer.active").prev().removeClass("active");
-
-        } else {
-            $(".sliderContainer.active").next().addClass("active");
-            $(".sliderContainer.active").prev().removeClass("active");
-            $(".menuItem.activeItem").next().addClass("activeItem");
-            $(".menuItem.activeItem").prev().removeClass("activeItem");
-            $(".arrowSlider__left button").removeClass("deactive");
-            $(".arrowSlider__left button").attr("disabled", false);
-        }
-        cosmos();
+    var firstLocation;
+    var secondLocation;
+    $('.screenMove').mousedown(function(eventObject){
+       firstLocation =  (eventObject.pageX - $(this).offset().left);
     });
 
-    $(".arrowSlider__left button").click(function () {
-        if ($(".menuItem.activeItem").prev().hasClass("firstItem")) {
-            $(".menuItem.activeItem").prev().addClass("activeItem");
-            $(".menuItem.activeItem").next().removeClass("activeItem");
-            $(".arrowSlider__left button").attr("disabled", true);
-            $(".arrowSlider__left button").addClass("deactive");
-            $(".arrowSlider__right button").removeClass("deactive");
-            $(".arrowSlider__right button").attr("disabled", false);
-            $(".sliderContainer.active").prev().addClass("active");
-            $(".sliderContainer.active").next().removeClass("active");
-
+    $('.screenMove').mouseup(function(eventObject){
+        secondLocation =  (eventObject.pageX - $(this).offset().left);
+        if (firstLocation > secondLocation) {
+            rightSwap();
         } else {
-            $(".sliderContainer.active").prev().addClass("active");
-            $(".sliderContainer.active").next().removeClass("active");
-            $(".menuItem.activeItem").prev().addClass("activeItem");
-            $(".menuItem.activeItem").next().removeClass("activeItem");
-            $(".arrowSlider__right button").removeClass("deactive");
-            $(".arrowSlider__right button").attr("disabled", false);
+            leftSwap();
         }
-        cosmos();
+    });
+
+    var hammertime = new Hammer(document.body, {
+        enable: true,
+        recognizers: [
+            [Hammer.Swipe, { direction: Hammer.DIRECTION_HORIZONTAL }]
+        ]
+    });
+
+    hammertime.on('swipeleft', function(ev) {
+        rightSwap();
+    });
+
+    hammertime.on('swiperight', function(ev) {
+        leftSwap();
+    });
+
+    /*Стрелка вперёд */
+    $(".arrowSlider__right button").click(function () {
+       rightSwap();
+    });
+
+    /*Стрелка назад */
+    $(".arrowSlider__left button").click(function () {
+      leftSwap();
     });
     /*Проверка на космос*/
     function cosmos() {
@@ -602,6 +605,16 @@
             $('.arrowSlider__right button img').css('filter', 'brightness(1000)');
         } else {
             $(".hoItWorks__slider").removeClass('cosmos');
+            $('.arrowSlider__left button img').css('filter', 'brightness(1)');
+            $('.arrowSlider__right button img').css('filter', 'brightness(1)');
+        }
+    }
+
+    function firstSlide() {
+        if ($(".sliderContainer.active").hasClass("firstSlide")) {
+            $('.arrowSlider__left button img').css('filter', 'brightness(10000)');
+            $('.arrowSlider__right button img').css('filter', 'brightness(10000)');
+        } else {
             $('.arrowSlider__left button img').css('filter', 'brightness(1)');
             $('.arrowSlider__right button img').css('filter', 'brightness(1)');
         }
@@ -634,6 +647,7 @@
                 $('.arrowSlider__left img').css('filter', 'brightness(2)');
                 $('.arrowSlider__right img').css('filter', 'brightness(100)');
                 cosmos();
+                firstSlide()
             } else if ($(this).hasClass('lastItem')) {
                 checkedItem(this);
                 $(".arrowSlider__right button").addClass("deactive");
@@ -641,7 +655,8 @@
                 $(".arrowSlider__right button").attr("disabled", true);
                 $(".arrowSlider__left button").attr("disabled", false);
                 cosmos();
-                whiteArrow()
+                whiteArrow();
+                firstSlide()
             } else {
                 checkedItem(this);
                 $(".arrowSlider__right button").removeClass("deactive");
@@ -649,18 +664,65 @@
                 $(".arrowSlider__right button").attr("disabled", false);
                 $(".arrowSlider__left button").attr("disabled", false);
                 cosmos();
-                whiteArrow()
+                whiteArrow();
+                firstSlide()
             }
         }
-    })
+    });
+
+    function rightSwap () {
+        if ($(".menuItem.activeItem").next().hasClass("lastItem")) {
+            $(".menuItem.activeItem").next().addClass("activeItem");
+            $(".menuItem.activeItem").prev().removeClass("activeItem");
+            $(".arrowSlider__right button").attr("disabled", true);
+            $(".arrowSlider__right button").addClass("deactive");
+            $(".arrowSlider__left button").removeClass("deactive");
+            $(".arrowSlider__left button").attr("disabled", false);
+            $(".sliderContainer.active").next().addClass("active");
+            $(".sliderContainer.active").prev().removeClass("active");
+
+        } else {
+            $(".sliderContainer.active").next().addClass("active");
+            $(".sliderContainer.active").prev().removeClass("active");
+            $(".menuItem.activeItem").next().addClass("activeItem");
+            $(".menuItem.activeItem").prev().removeClass("activeItem");
+            $(".arrowSlider__left button").removeClass("deactive");
+            $(".arrowSlider__left button").attr("disabled", false);
+        }
+        cosmos();
+        firstSlide()
+    }
+
+    function leftSwap () {
+        if ($(".menuItem.activeItem").prev().hasClass("firstItem")) {
+            $(".menuItem.activeItem").prev().addClass("activeItem");
+            $(".menuItem.activeItem").next().removeClass("activeItem");
+            $(".arrowSlider__left button").attr("disabled", true);
+            $(".arrowSlider__left button").addClass("deactive");
+            $(".arrowSlider__right button").removeClass("deactive");
+            $(".arrowSlider__right button").attr("disabled", false);
+            $(".sliderContainer.active").prev().addClass("active");
+            $(".sliderContainer.active").next().removeClass("active");
+
+        } else {
+            $(".sliderContainer.active").prev().addClass("active");
+            $(".sliderContainer.active").next().removeClass("active");
+            $(".menuItem.activeItem").prev().addClass("activeItem");
+            $(".menuItem.activeItem").next().removeClass("activeItem");
+            $(".arrowSlider__right button").removeClass("deactive");
+            $(".arrowSlider__right button").attr("disabled", false);
+        }
+        cosmos();
+        firstSlide()
+    }
 </script>
 <section class="formPopUp">
     <div class="wrapper">
         <form enctype="multipart/form-data" method="post" id="form">
             <span class="headerPopup">Расскажите о своем проекте</span>
             <p>Укажите контакты, и мы свяжемся
-                с Вами, чтобы обсудить все детали. Либо звоните <a class="phonePopup" href="tel:+74822655857">+7 (4822) 65-58-57</a>, пообщаемся,
-                и мы сформируем предложение для Вас.</p>
+                с вами, чтобы обсудить все детали. Либо звоните, пообщаемся,
+                и мы сформируем предложение для вас: <a class="phonePopup" href="tel:+74822655857">+7 (4822) 65-58-57</a></p>
             <div class="services">
                 <div class="servicesBlock">
                     <div class="block" data-property="">Интернет-магазин</div>
@@ -678,15 +740,15 @@
             <div class="budget">
                 <p class="service">Планируемый бюджет</p>
                 <div class="slidecontainer">
-                    <div class="flexPointer"><span id="demo"></span></div>
-                    <input type="range" min="10000" max="1000000" step="10000" value="50000" class="slider" id="myRange" nam="price">
+                    <div class="flexPointer"><span id="demo"></span><img id="infinity" src="image/octicon_infinity.svg" style="display: none;" alt=""></div>
+                    <input type="range" min="10000" max="1000000" step="10000" value="50000" class="slider" id="myRange" name="price">
                 </div>
 
             </div>
             <div class="blockInputInfo blockInputInfoPopup">
                 <div class="blockInputInfo__left blockInputInfo__leftPopup">
                     <div class="test1"><label for="userNamePopup">Ваше имя</label>
-                        <input type="text" name="name" id="userNamePopup" class="name aInput" placeholder="ФИО"></div>
+                        <input type="text" name="name" id="userNamePopup" class="name aInput" placeholder="Алексей"></div>
                     <div class="test1"><label for="userPhonePopup">Номер телефона</label>
                         <input type="text" name="phone" class="phone aInput" id="userPhonePopup" placeholder="+7 ( _ _ _ ) _ _ _-_ _-_ _"></div>
                     <div class="test1"><label for="userEmailPopup">Электронная почта</label>
@@ -694,13 +756,13 @@
                 </div>
                 <div class="blockInputInfo__right blockInputInfo__rightPopup">
                     <label for="userMessagePopup">Сообщение</label>
-                    <textarea  id="userMessagePopup" name="comment"></textarea>
+                    <textarea  id="userMessagePopup" name="comment" placeholder="Пара слов о проекте"></textarea>
                 </div>
             </div>
             <input type="file" class="uploadFile" id="mainFastFormPopup"><label for="mainFastFormPopup">Прикрепить файл</label>
             <div class="formRequestMain__accept">
                 <button type="submit" class="btn btn-bottom-form btn-popup-form" >Отправить</button>
-                <input type="checkbox" class="custom-checkbox" id="userPoliticsPopup">
+                <input type="checkbox" class="custom-checkbox" id="userPoliticsPopup" checked>
                 <label for="userPoliticsPopup"><span class="crutch"></span>Я даю свое согласие на обработку моих персональных<br/> данных.</label>
 
             </div>
@@ -709,7 +771,7 @@
     <div class="exit" onclick="$('.formPopUp').toggleClass('animationFade'); $('.formPopUp').toggleClass('animationSlick')"></div>
 </section>
 <!--<button type="button" class="popupActive" onclick="$('.formPopUp').remobtn btn-bottom-form btn-popup-formveClass('animationFade'); $('.formPopUp').toggleClass('animationSlick')"><span>Заказать<br>сайт</span></button>-->
-<button type="button" class="popupActive btn-3" onclick="$('.formPopUp').removeClass('animationFade'); $('.formPopUp').toggleClass('animationSlick')"><span>Заказать<br>сайт</span></button>
+<button type="button" class="popupActive btn-3" onclick="$('.formPopUp').removeClass('animationFade'); $('.formPopUp').toggleClass('animationSlick')"><span>Заказать проект</span></button>
 <script>
     $('.block').click(function () {
         $(this).toggleClass('pusiit');
@@ -718,7 +780,7 @@
     var slider = document.getElementById("myRange");
     var pointer = document.getElementById("demo");
 
-    pointer.innerHTML = slider.value + '₽';
+    pointer.innerHTML = slider.value.replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ') + ' ₽';
 
     function setBagePosition(curentSlider, curentPointer) {
         const radius = curentSlider.scrollHeight;
@@ -729,8 +791,14 @@
     setBagePosition(slider, pointer);
 
     slider.oninput = function() {
-        pointer.innerHTML = slider.value + '₽';
-        setBagePosition(slider, pointer);
+        if (slider.value == 1000000) {
+            $("#infinity").css('display','block');
+            pointer.innerHTML ='';
+        } else {
+            $("#infinity").css('display','none');
+            pointer.innerHTML = slider.value.replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ')  + ' ₽';
+            setBagePosition(slider, pointer);
+        }
     };
 
     $('#form').on('submit', function(e){
@@ -751,6 +819,15 @@
             }
         }
     });
+    });
+
+    $(document).ready(function(){
+        $("#menu").on("click","a", function (event) {
+            event.preventDefault();
+            var id  = $(this).attr('href'),
+                top = $(id).offset().top;
+            $('body,html').animate({scrollTop: top}, 1500);
+        });
     });
 </script>
 

@@ -19,9 +19,8 @@ h1 {
 h2 {
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 58px;
-    text-transform: uppercase;
+    font-size: 2.5vw;
+    line-height: 2.6vw;
 }
 
 .formPopUp {
@@ -60,14 +59,22 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
     bottom:10px;
     left: 0;
     font-style: normal;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 48px;
     text-align: center;
     color: #02509D;
+    position: relative;
+}
+
+#infinity {
+    position: relative;
+    right: calc(-100% + 48px);
+    top: -12px;
+    width: 48px;
+    height: 48px;
 }
 
 .pale {
@@ -92,7 +99,7 @@ h2 {
 }
 
 .halfWrapper {
-    margin-left: 22%;
+    margin-left: 15%;
 }
 
 .politics:hover {
@@ -102,11 +109,11 @@ h2 {
 #mainFastFormPopup + label::after {
     content: '';
     position: absolute;
-    width: 31px;
-    height: 38px;
-    left: 0px;
-    top: -5px;
-    background: url(../image/stample.png) no-repeat center center;
+    width: 48px;
+    height: 48px;
+    left: 2px;
+    top: -9px;
+    background: url(../image/stample.svg) no-repeat center center;
 }
 
 /* HEADER */
@@ -114,7 +121,7 @@ h2 {
     background-image: linear-gradient(60deg, #091a82 0%, #2689c5 66%, #3a6a9d 100% );
     background-size: 300% 300%;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     animation: background-shift 10s ease infinite;
 }
 
@@ -169,7 +176,7 @@ h2 {
 }
 
 .mainScreen__center {
-    margin-top: 16%;
+    margin-top: 16vh;
 }
 
 .mainScreen__center h1 {
@@ -181,7 +188,7 @@ h2 {
 .mainScreen__center p {
     font-style: normal;
     font-weight: 300;
-    font-size: 46px;
+    font-size: 50px;
     line-height: 64px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -194,7 +201,9 @@ h2 {
     display: flex;
     justify-content: space-between;
     color: #fff;
-    margin-top: 10%;
+    position: absolute;
+    bottom: 10px;
+    width: 70%;
 }
 
 .topPlace {
@@ -202,17 +211,6 @@ h2 {
     display: flex;
     align-items: center;
     justify-items: center;
-}
-
-
-
-.topPlace:last-child {
-     align-items: baseline;
-}
-
-.topPlace:last-child h3 {
-    position: relative;
-    top: 32px;
 }
 
 .mainScreen__bottom h3 {
@@ -225,9 +223,9 @@ h2 {
 
 .mainScreen__bottom p {
     font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 42px;
+    font-weight: 500;
+    font-size: 2.3vh;
+    line-height: 2.6vh;
 }
 
 /* MAIN */
@@ -269,7 +267,7 @@ h2 {
 
 .questionScreen .questionScreen__slider .owl-nav button.owl-prev {
     background: url("../image/Arrow2_hover.png") no-repeat;
-    width: 186px;
+    width: 187px;
     height: 25px;
     outline: none;
     cursor: pointer;
@@ -277,7 +275,7 @@ h2 {
 
 .questionScreen .questionScreen__slider .owl-nav button.owl-next {
     background: url("../image/Arrow1_hover.png") no-repeat;
-    width: 186px;
+    width: 187px;
     height: 25px;
     outline: none;
     cursor: pointer;
@@ -286,14 +284,14 @@ h2 {
 
 .questionScreen .questionScreen__slider .owl-nav button.owl-prev:hover {
     background: url("../image/Arrow 2.png") no-repeat;
-    width: 186px;
+    width: 187px;
     height: 25px;
 
 }
 
 .questionScreen .questionScreen__slider .owl-nav button.owl-next:hover {
     background: url("../image/Arrow 1.png") no-repeat;
-    width: 186px;
+    width: 187px;
     height: 25px;
 }
 
@@ -302,12 +300,32 @@ h2 {
  display: none;
 }
 
+.sliderProject {
+    position: relative;
+}
+
+
+.sliderProject:active {
+    cursor: pointer;
+}
+
 .hoItWorks__slider .sliderProject .owl-nav {
     display: flex;
     justify-content: space-between;
     margin-top: 52px;
     width: 10%;
     margin-left: 15px;
+}
+
+.screenMove {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 88%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    cursor: pointer;
 }
 
 .sliderContainer {
@@ -319,9 +337,14 @@ h2 {
     to {opacity: 1;}
 }
 
+.blockCounter:last-child  .upperText {
+    text-align: center;
+}
+
 .blockCounter .bottomText {
     margin-top: 0;
     text-align: center;
+    line-height: 28px;
 }
 
 .hoItWorks__slider .sliderProject .owl-nav button.owl-prev {
@@ -467,16 +490,16 @@ display: none;
 
 .blockCounter span {
     font-size: 100px;
-    line-height: 128px;
 }
 
 .blockCounter:last-child p:first-child {
     font-size: 100px;
+    margin-bottom: 8px;
 }
 
 .partnersScreen {
     margin-bottom: 150px;
-    margin-top: 150px;
+    padding-top: 150px;
 }
 
 .partnersScreen h2 {
@@ -520,12 +543,12 @@ margin-bottom: 353px;
 .choiceScreen__blueAndRed h3 {
     font-style: normal;
     font-weight: bold;
-    font-size: 34px;
-    line-height: 41px;
+    font-size: 1.5vw;
+    line-height: 1.7vw;
     color: #ffffff;
     margin: 0;
     text-transform: uppercase;
-    padding: 60px;
+    padding: 60px 48px;
 }
 
 
@@ -997,7 +1020,7 @@ margin-bottom: 353px;
 
 .howItWorks__gridBlock {
     display: grid;
-    grid-template-columns: 31% 69%;
+    grid-template-columns: 35% 65%;
     overflow: hidden;
 }
 
@@ -1031,9 +1054,11 @@ margin-bottom: 353px;
     cursor: pointer;
     font-size: 40px;
     line-height: 64px;
-
 }
 
+.menuSlider ul {
+    padding: 0;
+}
 
 .owl-dot button{
     cursor: pointer;
@@ -1042,9 +1067,10 @@ margin-bottom: 353px;
 #mainFastFormPopup + label {
     cursor: pointer;
     position: relative;
-    padding-left: 75px;
+    padding-left: 47px;
     padding-top: 5px;
     text-decoration: underline;
+    color: #1182C5;
 }
 
 #mainFastFormPopup {
@@ -1100,8 +1126,8 @@ margin-bottom: 353px;
 
 .computer2 {
     top: -277px;
-    right: 10%;
-    width: 80% !important;
+    right: 15%;
+    width: 70% !important;
     z-index: 10;
 }
 
@@ -1143,6 +1169,7 @@ margin-bottom: 353px;
     width: 52%;
     min-height: 250px;
     padding-left: 40px;
+    margin-top: 25px;
 }
 
 .owl-item:nth-child(2) .descriptionSlider {
@@ -1209,8 +1236,16 @@ margin-bottom: 353px;
     padding: 61px 103px;
 }
 
-.owl-carousel.owl-drag .owl-item {
-    left: -1px;
+.owl-slider-bottom .owl-stage {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.owl-slider-bottom.owl-drag .owl-item {
+    display: flex;
+    align-items: center;
+    justify-items: center;
 }
 
 .formCallback h3 {
@@ -1219,6 +1254,10 @@ margin-bottom: 353px;
     font-size: 30px;
     line-height: 37px;
     color: #000;
+}
+
+.owl-carousel .owl-item img {
+    width: 80% !important;
 }
 
 .formCallback p,
@@ -1277,7 +1316,7 @@ margin-bottom: 353px;
 }
 
 .blockInputInfo__leftPopup .test1 {
-    width: 33%;
+    width: 32%;
 }
 
 .blockInputInfo__left label,
@@ -1290,12 +1329,19 @@ margin-bottom: 353px;
 .blockInputInfo__left input,
 .blockInputInfo__right input {
     width: 100%;
-    padding: 15px 25px;
+    padding: 8px;
     margin-bottom: 25px;
     color: #000;
     box-sizing: border-box;
     border: 2px solid #BEC4CC;
     border-radius: 4px;
+    font-size: 12px;
+    line-height: 32px;
+}
+
+.blockInputInfo__left input:disabled,
+.blockInputInfo__right input:disabled {
+    background-color: #f4f4f4;
 }
 
 #userMessageModal {
@@ -1324,17 +1370,22 @@ margin-bottom: 353px;
     box-sizing: border-box;
     border-radius: 4px;
     resize: none;
+    padding: 10px;
 }
 
 .exit {
     position: absolute;
-    right: 70px;
-    top: 25px;
+    right: 15%;
+    top: 90px;
     width: 30px;
     height: 30px;
-    color:#1182C5;
+    color: #1D3E82;
     z-index: 999999;
     cursor: pointer;
+}
+
+.exit:hover {
+    color:  #1182C5;
 }
 
 .exit:before, .exit:after {
@@ -1343,8 +1394,13 @@ margin-bottom: 353px;
     content: ' ';
     height: 33px;
     width: 2px;
-    background-color: #333;
+    background-color: #1D3E82;
 }
+
+.exit:hover::before, .exit:hover::after {
+    background-color: #1182C5;
+}
+
 .exit:before {
     transform: rotate(45deg);
 }
@@ -1433,6 +1489,25 @@ margin-bottom: 353px;
     animation: animate-logo 2s ease-in-out forwards;
 }
 
+.btn-3 {
+    background: white;
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    will-change: transform;
+    letter-spacing: 0.05rem;
+    color: #401aff;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    z-index: 9998;
+    transform: scale(0.95);
+    box-shadow: 0 0 26px rgba(0, 0, 0, 0.3);
+    font-size: 22px;
+    line-height: 30px;
+    right: calc(1vw + 1vh);
+    bottom: calc(1vw + 1vh);
+}
+
 @-webkit-keyframes animate-logo {
     0% {
         background-position: 0 800px;
@@ -1443,23 +1518,25 @@ margin-bottom: 353px;
 }
 
 @media screen and (max-width: 1024px) {
-    .popupActive {
+    .btn-3 {
         width:  120px;
         height: 120px;
         right: 24px;
         bottom: 115px;
+        font-size: 20px;
+        line-height: 26px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .popupActive {
+    .btn-3 {
         line-height: 18px;
         font-size: 12px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .popupActive {
+    .btn-3 {
         width:  88px;
         height: 88px;
         right: 12px;
@@ -1502,20 +1579,7 @@ margin-bottom: 353px;
     width: 964px;
 }
 
-.btn-3 {
-    background: white;
-    text-align: center;
-    display: inline-block;
-    font-weight: 700;
-    will-change: transform;
-    letter-spacing: 0.05rem;
-    color: #401aff;
-    overflow: hidden;
-    transition: 0.3s ease-in-out;
-    z-index: 9998;
-    transform: scale(0.95);
-    box-shadow: 0 0 26px rgba(0, 0, 0, 0.3);
-}
+
 
 .btn-3:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
@@ -1556,6 +1620,10 @@ margin-bottom: 353px;
     margin-bottom: 50px;
 }
 
+#userMessagePopup {
+    padding: 10px 5px;
+}
+
 .headerPopup {
     font-style: normal;
     font-weight: bold;
@@ -1565,7 +1633,8 @@ margin-bottom: 353px;
 }
 
 .headerPopup {
-    margin-top: 20px;
+    margin-top: 80px;
+    display: block;
 }
 
 .phonePopup {
@@ -1583,13 +1652,6 @@ margin-bottom: 353px;
     height: 4px;
     background: #d3d3d3;
     outline: none;
-    opacity: 0.5;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-}
-
-.slider:hover {
-    opacity: 1;
 }
 
 .slider::-webkit-slider-thumb {
@@ -1667,19 +1729,24 @@ margin-bottom: 353px;
     cursor: pointer;
 }
 
+
 .btn-popup-form {
     margin: 15px 0;
+    font-size: 18pt;
 }
 
 .btn-bottom-form:hover {
-    opacity: .4;
+    background-color: #02509D;
+}
+
+.btn-bottom-form:disabled {
+    background-color: #BEC4CC;
 }
 
 
 .formRequestMain__accept {
     width: 69%;
     display: flex;
-    justify-content: space-between;
 }
 
 .formPopUp .formRequestMain__accept {
@@ -1689,6 +1756,7 @@ margin-bottom: 353px;
 
 .formPopUp .custom-checkbox+label {
     margin-top: 5px;
+    margin-left: 37px;
 }
 
 #mainFastForm + label,
@@ -1770,7 +1838,7 @@ margin-bottom: 353px;
 }
 
 .custom-checkbox:checked+label::before {
-    background-image: url("../image/accept.png");
+    background-image: url("../image/accept.svg");
     background-position: center center;
 }
 
@@ -1922,23 +1990,49 @@ li:last-child .menu__item {
 }
 
 .questionScreen h2 {
-    margin: 120px 0 80px 0;
+    margin: 48px 0 60px 0;
 }
 
 .mobileMenuItem {
     display: none;
 }
 
+.projectsScreen h2 {
+    margin-bottom: 96px;
+}
 
+.projectsScreen p {
+    font-size: 18px;
+    line-height: 32px;
+}
 
+.howItWorks__map h2 {
+    margin-top: 0;
+}
 
+.sliderContainer:first-child.active ~ .arrowSlider.arrowSlider__left img {
+    filter: brightness(10000);
+}
 /* =============== MEDIA =============== */
 
 @media screen and (max-width: 1600px) {
     .computer {
-        top: -50px;
         right: 50px;
         width: 50% !important;
+    }
+
+    .computer2 {
+        top: -277px;
+        right: 15%;
+        width: 70% !important;
+        z-index: 10;
+    }
+
+    .formScreen {
+        top: auto;
+        bottom: 0;
+        right: 15%;
+        width: 70% !important;
     }
 
     .questionScreen__slider {
@@ -1976,6 +2070,10 @@ li:last-child .menu__item {
         height: auto;
         padding-bottom: 80px;
     }
+
+    .computer2 {
+        top: -150px;
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -1997,12 +2095,6 @@ li:last-child .menu__item {
     .questionScreen__slider {
         height: auto;
         min-height: auto;
-    }
-
-    .choiceScreen__blueAndRed h3 {
-        font-size: 29px;
-        line-height: 30px;
-        padding: 30px;
     }
 
     .owl-dot button {
@@ -2053,14 +2145,20 @@ li:last-child .menu__item {
     }
 
     .computer {
-      width: 50% !important;
+      width: 40% !important;
         top: auto;
-        right: 25%;
+        right: 30%;
+    }
+
+    .formScreen {
+        width: 70% !important;
+        top: auto;
+        right: 15%;
     }
 
     .computer2 {
         width: 70% !important;
-        top: auto;
+        top: -155px;
         right: 15%;
 
     }
@@ -2074,8 +2172,8 @@ li:last-child .menu__item {
     .mobile {
         position: absolute;
         top: auto;
-        right: 15%;
-        width: 70% !important;
+        right: 20%;
+        width: 60% !important;
     }
 
     .blockCounter span {
@@ -2113,13 +2211,16 @@ li:last-child .menu__item {
         }
     /*-----------End Slaider-----------*/
 
+
+
+    .projectsScreen p {
+        display: none;
+    }
+
     .countersScreen {
         align-items: center;
     }
 
-    .mainScreen {
-        min-height: 768px;
-    }
     .menu__btn {
         display: flex;
     }
@@ -2211,7 +2312,7 @@ li:last-child .menu__item {
     }
 
     .partnersScreen {
-        margin-top: 50px;
+        padding-top: 50px;
     }
 
     .partnersScreen h2 {
@@ -2274,10 +2375,24 @@ li:last-child .menu__item {
 @media screen and (max-width: 768px) {
     .mobileArrow {
         display: block;
+        filter: brightness(10000);
     }
 
-    .mainScreen__bottom {
-        display: block;
+    h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .computer {
+        width: 60% !important;
+        top: auto;
+        right: 15%;
+    }
+
+    .computer2 {
+        width: 125% !important;
+        top: -200px;
+        right: -12%;
     }
 
     .fullScreenArrow {
@@ -2607,6 +2722,7 @@ li:last-child .menu__item {
         bottom: 0;
         right: 25%;
         width: 50% !important;
+        width: 50% !important;
     }
 
     .formScreen {
@@ -2620,11 +2736,25 @@ li:last-child .menu__item {
     .howItWorks__map iframe {
         height: 488px !important;
     }
+
+    .mainScreen__bottom {
+        display: block;
+    }
+
+    .mainScreen__bottom {
+        position: static;
+        width: auto;
+        bottom: auto;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .menu__box {
         width: 100%;
+    }
+
+    #mainFastFormPopup + label {
+        padding-left: 85px;
     }
 
     .questionScreen h2 {
